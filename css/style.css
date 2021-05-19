@@ -1,0 +1,148 @@
+/*fonts start*/
+@font-face{
+	src:url(../fonts/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+@font-face{
+	src:url(../fonts/Lato-Regular.ttf);
+	font-family: Lato-Regular;
+}
+@font-face{
+	src:url(../fonts/Roboto-Bold.ttf);
+	font-family: Roboto-Bold;
+}
+@font-face{
+	src:url(../fonts/Roboto-Medium.ttf);
+	font-family: Roboto-Medium;
+}
+@font-face{
+	src:url(../fonts/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+/*fonts end*/
+/*common start*/
+body{
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400px;
+	color:#8e8e8e;
+}
+/*common end*/
+/*header start*/
+header{
+	/*border:1px solid;*/
+}
+.n_l{
+	padding-top: 0;
+}
+.n_b{
+	padding-top: 0;
+}
+.logo{
+	font-family: Lato-Regular;
+}
+.l_top{
+	margin-bottom: -3px;
+    margin-left: 4px;
+}
+.l_text{
+    font-size: 30px;
+	font-weight: 500px;
+	color:#333333;
+}
+.menu{
+	margin-top: 30px;
+}
+.menu ul li a{
+	font-family: Lato-Bold;
+	font-size: 16px;
+	color:#8e8e8e !important;
+	margin:10px;
+}
+.menu ul li a:hover{
+	color:#333333 !important;
+}
+.d_search{}
+.btn_search{}
+.btn:focus {
+    outline: 0;
+    box-shadow:none;
+}
+.d_menu[data-bs-popper] {
+	padding: 5px 10px;
+    left: -244px;
+    margin-top: 22px;
+}
+.b_s{
+    margin-top: 4px;
+    background: transparent;
+    transition: .5s;
+ }
+ .b_s:hover{
+ 	color: #8e8e8e !important;
+ 	border:none;
+ }
+/*header end*/
+/*slider start*/
+.hero{}
+.p_0{
+	padding:0;
+}
+.c_prev_icon, .c_next_icon{
+	background:none;
+}
+.c_control_prev, .c_control_next{
+    font-family:Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400px;
+	color:#8e8e8e;
+	align-items: flex-end;
+	width:10%;
+
+}
+.c_control_prev{}
+.c_control_next{
+	right: auto;
+    left: 80px;
+}
+.c_control_prev, .c_control_next:hover{
+  color:#333333 !important;
+}
+.l_1{
+  padding: 0px 120px 2px;
+}
+.img_1{
+	
+}
+.slide_1{
+	right:42%;
+	bottom:38%;
+	text-align: left;
+}
+.h_1{
+	margin-bottom: 25px;
+	font-family: Lato-Bold;
+	font-size: 60px !important;
+	color:#fff;
+}
+.p_1{
+	font-family:Roboto-Regular;
+	font-size: 16px !important;
+	color:#fff;
+}
+.button_1{
+	margin-top: 10px;
+	font-family: Roboto-Medium;
+	font-size: 16px !important;
+	color:#333333;
+	width: 190px;
+    height: 45px;
+    background-color: #fff;
+    border:none;
+
+}
+.b_icon{
+	 margin-top: 6px;
+	 padding: 0 15px 0;
+}
+/*slider end*/
